@@ -1,0 +1,179 @@
+@font-face {font-family: 'LeagueGothic';src: url('league_gothic-webfont.eot?') format('eot'),url('league_gothic-webfont.woff') format('woff'), url('league_gothic-webfont.ttf') format('truetype'), url('league_gothic-webfont.svg#webfontOTINA1xY') format('svg');font-weight: normal;	font-style: normal;}
+@font-face {font-family: 'MuseoSans500';src: url('museosans_500-webfont.eot'); src: url('museosans_500-webfont.eot?#iefix') format('embedded-opentype'), url('museosans_500-webfont.woff') format('woff'),url('museosans_500-webfont.ttf') format('truetype'),url('museosans_500-webfont.svg#DroidSerifRegular') format('svg');font-weight: normal; font-style: normal;}
+@-webkit-keyframes 'clockhands'{from{-webkit-transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);}}
+@-moz-keyframes clockhands{from{-moz-transform:rotate(0deg);}to{-moz-transform:rotate(360deg);}}
+@keyframes 'clockhands'{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}
+a img {border:0;}
+ul {list-style:none;}
+body {font: 20px/1 tahoma;color:#8b8f92;background: #2b3238;-webkit-font-smoothing: antialiased;margin:0;	padding:0;text-rendering: optimizeLegibility;}
+h1,h2,h3,h4, strong {font-weight: normal;}
+#lightning {width:86px;	height:359px;	position: absolute;	top:0;left:50%;	margin-left: -20px;	background: url('../i/lightning.png') no-repeat;z-index:3;opacity:0;}
+.button,.newsite a,.vevent a,.vevent a:hover,.footer a,.footer a:hover, .carshare a, .carshare a:hover {-webkit-transition: .2s all ease; -moz-transition: .2s all ease; -o-transition: .2s all ease;transition: .2s all ease;}
+.portraits {display: none;}
+.vcard .links {-webkit-transition: 1s all ease; -moz-transition: 1s all ease; -o-transition: 1s all ease;transition: 1s all ease;}
+.fontface body {font: 24px/1 'LeagueGothic';}
+.fontface .talk {font: 16px/1.2 'MuseoSans500';}
+.fontface .bio {font: 10px/1.2 'MuseoSans500'; border-top: 1px solid rgba(255,255,255,.3);padding-top:10px; margin-top: 10px;}
+.fontface #action small {font: 14px/1.2 'MuseoSans500';}
+mark {background-color: transparent; font-size: 200%; color: orange;} 
+.newsite{position: fixed; font: 18px/1.4 'MuseoSans500'; text-align: center; z-index: 1000; width: 100%;}
+.newsite a {background-color: #DC5628; color: #FFF; display: block; padding: 2px 5px 1px; border: 5px solid #DC5628; text-decoration: none; width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.newsite a:hover { border: 5px solid rgba(255,255,255,.5);}
+.vevent {z-index: 20;text-align: center;	background: #43516D url('../i/raggi.png') center top no-repeat;padding-top: 60px; color:#fff;}
+.vevent p {margin:0; }
+.vevent .location {height: 60px;}
+.vevent .location p {display: inline;}
+.vevent a,.footer a, .carshare a {color: #fff;text-decoration: none;text-transform: uppercase;}
+.vevent a.highlight {color: #FBD919;}
+.vevent a:hover,.footer a:hover, .carshare a:hover {color: #DC5628;}
+.vevent .description {background: #1B2024;font-size: 150%;line-height: 1; color: #96989a;padding: 15px 0;}
+.fontface .vevent .description {font-size: 180%;}
+.vevent .description p {	padding:0;margin:0;}
+#clocktower {position: relative;  left: 50%; margin-left: -110px; width: 220px; height: 173px; }
+#entablature {height: 90px; width: 100%; position: relative; top:0; left:0; }
+#piediment {height: 70px; width: 100%; position: relative; background: url('../i/piediment.png');}
+#clock {position: absolute;left: 95px; top: 33px; width: 32px; height: 32px; background: url('../i/fullclock.png') no-repeat;}
+#clock div {height: 32px; width: 32px;position: absolute;}
+#hours {background: transparent url('../i/fullclock.png') no-repeat -32px; -webkit-animation-name: clockhands;-webkit-animation-duration: 120s;-webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear;}
+#minutes {	background: transparent url('../i/fullclock.png') no-repeat -64px; -webkit-animation-name: clockhands;-moz-animation-name: clockhands;-webkit-animation-duration: 20s;-moz-animation-duration: 20s;	-moz-animation-iteration-count: infinite;	-webkit-animation-iteration-count: infinite;  -webkit-animation-timing-function: linear;}			
+#cornice {height: 3px; width: 212px; position: relative;left: 4px; background: #242d3e; border: 1px solid #19202C;}
+#friege {height: 10px; width: 202px;left: 9px; position: relative; background: #1e2737; border-left: 1px solid #19202C;border-right: 1px solid #19202C;}
+#architrave {height: 3px; width: 206px; position: relative;left: 7px; background: #242d3e; border: 1px solid #19202C;}
+#colonnade {height: 83px; width: 202px; left: 9px; position: relative; background: #171d28;}
+.column {width: 18px; height: 85px; position: relative; float: left;background: url('../i/column.gif'); margin-left: 43px;}
+.column:first-child {margin-left: 0;}
+.ftfunibo {margin: 0 auto;width: 50%;max-width:552px;}
+h1 {position: relative;width: 50%;margin: 0 auto;}
+h1 img {width: 100%;max-width: 454px;}
+.section {	position: relative;	padding: 20px 20%;	background: #2b3238;	background: -moz-linear-gradient(top, #2b3238 0%, #38424a 100%); 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2b3238), color-stop(100%,#38424a)); 	background: -webkit-linear-gradient(top, #2b3238 0%,#38424a 100%);	background: -o-linear-gradient(top, #2b3238 0%,#38424a 100%); background: -ms-linear-gradient(top, #2b3238 0%,#38424a 100%); 	background: linear-gradient(top, #2b3238 0%,#38424a 100%); }
+.section hgroup {text-align: center; width: auto;display: inline-block;}
+.section h2,
+.sponsors h2 {margin:0;padding: 20px 0 0 0;text-transform: uppercase; color: #fff;}
+.fontface h2 {font-size: 220%;}
+.section h3 {font-size: 80%;padding-bottom: 20px;margin-top:0;}
+strong {color: #fff;}
+em {background: #f7fbb5;font-style:normal;}
+.vcard {display: block; clear: both;position: relative;padding-bottom:100px;min-height: 100px;}
+.vcard figure {width: 38%; position: absolute;top:0; left:0;margin:0; text-align: right;}
+.speakers {padding:0;}
+.vcard figcaption {position: absolute; right: 100px; /* dim immagine */ padding-right: 10px;bottom:0;}
+.vcard .fn { color: #8b8f92; text-align: right; display: block; font-size: 83%; }
+.vcard .fn strong {color: #fff;text-transform: uppercase;display: block;font-size: 185%;}
+.vcard .links {padding:0;text-align:right;font-size: 80%;opacity:0;	position: absolute;	width: 38%;	top: 110px;	left:0;}
+.vcard .links a {text-decoration: none;color: #8b8f92;}
+.vcard .links a:hover, .vcard .talk a:hover {color: #fff;}
+.vcard h4, 
+.vcard .talk { margin: 0 0 5px 38%; padding-left: 10px; font-size: 70%; }
+.vcard .talk a {color: #8b8f92; text-decoration: none;}
+,
+.vcard ul.talk {padding-left: 40px;}
+.vcard h4 {color: #fff;font-size: 28px;}
+.vcard:hover .links {opacity:1; -webkit-transform: translate(0,-4px);}
+#where .address {position: relative;}
+#where .address p {position: absolute;bottom:0; left:-10px; width: 38%; text-align: right; margin:0; ;}
+#where .address p strong {color: #fff;text-transform: uppercase;display: block;font-size: 150%;}
+#where .address .map {margin-left: 38%;display: block;width: 62%; border: 10px solid rgba(255,255,255,0);padding:0; background-color: rgba(255,255,255,.2); vertical-align: bottom; display: block;min-height:250px;}
+#where .address .map>div {position: relative!;}
+#where .carshare {text-align: center;}
+#party {height: 400px;overflow-y: hidden;}
+#party img,
+.action img { width: 38%; float: left;padding-right: 10px;}
+.action small {clear: both;display: block;}
+.action div, .top.action {text-align: center; width: 100%;}
+#party p, #tshirt p { width: 100%; font-size: 130%; }
+
+#tshirt div img {margin:0 10%;width: 80%;}
+.action {text-align: left;}
+.button {line-height:50px; border: 5px solid transparent;min-width: 200px;  text-decoration: none; text-transform:uppercase; color: #fff; display: inline-block;margin: 20px auto;padding:0 10px;margin:0 10px;font-size: 29px;}
+.donate {background-color:#397650;}
+.tshirt {background: #0073BA;}
+.book {background-color: #C88122;}
+.bookwks {background-color: #DC5628;}
+.button:hover {border: 5px solid rgba(255,255,255,.5);}
+.footer {background: #1B2024;text-align: center;}
+.sponsors, .carshare {padding: 10px 20%;}
+.sponsors h3 {padding:10px;}
+.sponsors ul {margin:0px;padding:0; text-align: center;}
+.sponsors li {display: inline;}
+.sponsors a, .carshare a {display: inline-block;}
+.platinum a {width: 60%;max-width: 480px;}
+.gold  a {width: 40%;max-width: 320px;}
+.silver {padding:20px;}
+.silver a {width: 25%; max-width: 200px;}
+.sponsors li.block {display: block;}
+.sponsors a:hover {background: #191d21;}
+.sponsors img {width:100%;}
+.sponsors p {border-top: 1px solid #2b3033;border-bottom: 1px solid #2b3033;line-height: 3;}
+.social {padding: 30px;}
+.social a {opacity: .5;border:0;}
+.social a:hover {opacity: 1;}
+
+@media only screen and (max-width:1000px){
+	.fontface .vevent .description {font-size: 120%;}
+	.section, .sponsors {padding: 10px 10%;}
+}
+
+@media only screen and (max-width:800px) {
+	.newsite {font-size: 15px;}
+}
+
+@media only screen and (max-width:600px) {
+	.newsite {font-size: 13px;}
+	.vcard figcaption {padding-right: 0;bottom: auto;top:104px; right:0;}
+	.vcard .links {top: 180px;width: 130px;}
+	.vcard h4, .vcard .talk {margin-left: 130px;}
+	.section, .sponsors {padding:10px;}
+	.vcard {min-height: 150px;}
+	.vcard figure {width: 130px;}
+	.vevent .description br {display: none;}
+	.button {font-size: 23px;}
+}
+
+@media only screen and (max-width:510px) {
+	.newsite {font-size: 12px;}
+	.ftfunibo,
+	.vevent .intro,
+	h1 img,
+	#clocktower,
+	.intro,
+	.location,
+	#where .address .map,
+	.vcard .photo {display: none;}
+	#where .address p {width: 100%; position: relative;}
+	.section hgroup,
+	.section>h2 {width: 100%; text-align: center; position: relative; background: #1b2024;line-height: 1.2;}
+	.section h2 {padding-top:0;}
+	.section hgroup h2 { width: 60%; text-align:right; display: inline; line-height: 1.2;}
+	.section hgroup h3 {display: inline; font-size: 120%; color: #fff; padding-left: 30px;}
+	.vevent .description {padding-bottom:0;}
+	.vevent {background-image: none;background-color: #1B2024;}
+	.vevent a.highlight {line-height: 2;}
+	.portraits {display: block;background: #1B2024;}
+	.portraits img {width: 32%; padding:0; margin:0;}
+	.vcard .fn {text-align: left;padding: 20px 0 0 10px;}
+	.vcard .fn strong {font-size: 180%;}
+	.vcard figure {width: 105px;position: relative;background: #2B3238;height: 90px; width: 100%;}
+	.vcard h4,
+	.vcard .talk { margin: 5px;}
+	.vcard .links { opacity:1;}
+	.section, .sponsors {padding:0;}
+	.section {background: #39424A;}
+	h1 {background: url('../i/logo_small.gif') center center no-repeat;height: 105px; width: 100%; }
+	 .description p:first-child {padding: 30px;}
+	 .description p:nth-child(2) span { display: none;}
+	 .description p:nth-child(2) a {display: inline-block; line-height: 70px; width: 33%; float: left;border-top: 1px solid #34393B; border-right: 1px solid #343938;border-bottom: 1px solid #34393B;}
+	.fontface .vevent .description {font-size: 100%;}
+  .vcard figcaption {width: 50%; display: inline; height: 70px;position: relative;top:0;bottom:0;right:0;}
+	.speakers {margin:0;}
+	.vcard .links {top:35px; right:0px;width: 100%;}
+	.vcard .links a {padding-right: 10px;}
+	.vcard:hover .links{-webkit-transform: none;}
+	.vcard {padding-bottom: 15px;}
+	#where .address p {padding: 20px 0;text-align: center;}
+	#party {height:300px;}
+	#party p {margin-left: 130px; width:auto;}
+}
+
+@media only screen and (max-width:400px) {
+	.vevent {padding-top: 70px;}
+}
